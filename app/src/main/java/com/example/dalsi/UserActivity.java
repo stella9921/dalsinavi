@@ -50,17 +50,28 @@ public class UserActivity extends AppCompatActivity implements GoogleApiClient.O
             @Override
             public void onClick(View v) {
                 Auth.GoogleSignInApi.signOut(googleApiClient).setResultCallback(new ResultCallback<Status>() {
-                            @Override
-                            public void onResult(@NonNull Status status) {
-                                if (status.isSuccess()){
-                                    gotoMainActivity();
-                                }else {
-                                    Toast.makeText(UserActivity.this,"로그아웃 실패", Toast.LENGTH_SHORT).show();
-                                }
-                            }
+                    @Override
+                    public void onResult(@NonNull Status status) {
+                        if (status.isSuccess()){
+                            gotoMainActivity();
+                        }else {
+                            Toast.makeText(UserActivity.this,"로그아웃 실패", Toast.LENGTH_SHORT).show();
+                        }
+                    }
                 });
             }
         });
+
+        // UserActivity에서 문의하기 버튼 누르면 CenterActivity로 화면 전환
+        Button imageButton = (Button) findViewById(R.id.btn2);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CenterActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
     private void gotoMainActivity() {
 

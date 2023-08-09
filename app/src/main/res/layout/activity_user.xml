@@ -31,15 +31,29 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="258dp"
         android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="433dp"
+        android:text="문의하기"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
 
     <Button
-        android:layout_width="300dp"
+        android:id="@+id/signoutBtn"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn2"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
         android:layout_marginBottom="130dp"
+        android:backgroundTint="#D5D2D2"
         android:text="로그아웃"
-        android:id="@+id/signoutBtn" />
+        android:textSize="20sp" />
 
 </RelativeLayout>
