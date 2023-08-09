@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/vector_home"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/action_heart"
+        android:enabled="true"
+        android:icon="@drawable/vector_heart"
+        android:title="하트"/>
+
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/vector_profile"
+        android:title="개인"/>
+
+</menu>

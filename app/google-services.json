@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "613215504200",
+    "firebase_url": "https://dalsidb-default-rtdb.firebaseio.com",
+    "project_id": "dalsidb",
+    "storage_bucket": "dalsidb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613215504200:android:f6cb3e3e678fcfcf8e157d",
+        "android_client_info": {
+          "package_name": "com.example.dalsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613215504200-51pccb9hh9mrienf3cgbg71modmfc9d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDk11KN3tceE6bqUkd0mLxG2k6WK5t8WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613215504200-51pccb9hh9mrienf3cgbg71modmfc9d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
